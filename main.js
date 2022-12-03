@@ -24,7 +24,7 @@ document.body.style.backgroundImage = 'url(https://cdn.pixabay.com/photo/2021/07
 document.body.style.backgroundSize = 'cover';
 document.body.appendChild(uploadInput);
 uploadInput.addEventListener('change', function() {
-    var url = "https://cmpsc-445-team-1.github.io/CMPSC-445-Team.github.io:8000";   // The URL and the port number must match server-side
+    var url = "https://cmpsc-445-team-1.github.io/CMPSC-445-Team.github.io";   // The URL and the port number must match server-side
     var endpoint = "/addnum";            // Endpoint must match server endpoint
 
     var http = new XMLHttpRequest();
