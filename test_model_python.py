@@ -8,7 +8,7 @@ import tensorflow as tf
 from keras.models import load_model
 import numpy as np
 print("run")
-loaded_model = load_model("dog_cat.tf")
+loaded_model = load_model("model.tf")
 print("loaded")
 dog_cats = [
 " Abyssinian " ,
