@@ -9,13 +9,14 @@ from PIL import Image
 # import Flask
 import flask_cors
 from flask import Flask, send_from_directory, request, json
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 CORS(app)
 
 
 # Send index.html
 @app.route('/', methods=["GET"])
+@cross_origin()
 @app.route('/index.html', methods=["GET"])
 def get_index():
     #return contents of index.html
