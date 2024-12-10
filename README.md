@@ -1,4 +1,4 @@
-#Dog and Cat Breed Classification Web Application
+# Dog and Cat Breed Classification Web Application
 
 A web-based application that uses machine learning to classify dog and cat breeds from uploaded images.
 
