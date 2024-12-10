@@ -1,8 +1,10 @@
 Dog and Cat Breed Classification Web Application
 A web-based application that uses machine learning to classify dog and cat breeds from uploaded images.
+
+![Screenshot 2024-10-01 161723](https://github.com/user-attachments/assets/5697afc9-2890-4d86-bb5d-b9515ee430f1)
+
 Features
 Image Classification
-![Screenshot 2024-10-01 161723](https://github.com/user-attachments/assets/5697afc9-2890-4d86-bb5d-b9515ee430f1)
 
     Upload and classify images of dogs and cats
     Real-time breed prediction
